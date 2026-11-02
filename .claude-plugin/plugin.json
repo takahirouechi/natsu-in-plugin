@@ -15,5 +15,10 @@
     "date-stamp",
     "japanese",
     "macos"
-  ]
+  ],
+  "repository": "https://github.com/takahirouechi/natsu-in-plugin",
+  "documentationUrl": "https://github.com/takahirouechi/natsu-in-plugin#readme",
+  "privacyPolicyUrl": "https://natsu-in.com/privacy.html",
+  "supportUrl": "https://natsu-in.com/support.html",
+  "termsOfServiceUrl": "https://www.apple.com/legal/internet-services/itunes/dev/stdeula/"
 }

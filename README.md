@@ -57,7 +57,7 @@ NATSU-in is a plugin that gives Claude a dated round stamp image (top text, date
 ## Requirements
 
 - macOS and the NATSU-in Mac app from the App Store (a version with the extension mode). It does not work on Windows or other systems.
-- The app must be in a usable state (for example, purchased). See https://natsu-in.com for details.
+- The app must be in a usable state (for example, purchased). Details: https://natsu-in.com
 - Node.js 18 or later, because the MCP server runs with `node`.
 - Where it works: Claude Code, and Cowork when the session runs on your own Mac. Claude chat ignores local MCP servers in plugins; to use NATSU-in in chat, install the `.mcpb` desktop extension from natsu-in.com in Claude Desktop.
 
@@ -87,12 +87,12 @@ Dates are `today`, `yesterday`, `day_before_yesterday`, or `YYYY-MM-DD` (from 20
 
 ## Privacy Policy
 
-The NATSU-in plugin and app make no network connections, and they do not collect, store, or share conversation content. What happens to the image after it reaches Claude follows Anthropic's terms. See https://natsu-in.com/privacy.html.
+The NATSU-in plugin and app make no network connections, and they do not collect, store, or share conversation content. What happens to the image after it reaches Claude follows Anthropic's terms. Full policy: https://natsu-in.com/privacy.html
 
 ## Support
 
-Use the contact form at https://natsu-in.com/support.html, or email support@natsu-in.com.
+Contact form: https://natsu-in.com/support.html ／ Email: support@natsu-in.com
 
 ## License
 
-MIT. See `LICENSE`.
+The plugin's code is under the MIT License (`LICENSE`). The NATSU-in app itself is offered under Apple's standard license agreement for App Store apps.
