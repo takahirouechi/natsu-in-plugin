@@ -12,7 +12,7 @@ const os = require('node:os');
 const path = require('node:path');
 const readline = require('node:readline');
 
-const VERSION = '0.1.0';
+const VERSION = '0.1.1';
 const APP = process.env.NATSUIN_APP || '/Applications/natsuin.app';
 const APP_BIN = path.join(APP, 'Contents', 'MacOS', 'natsuin');
 

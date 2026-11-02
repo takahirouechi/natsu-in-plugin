@@ -13,6 +13,13 @@
 - Node.js 18 以上（MCP のサーバーを `node` で動かします）。
 - 使える場所：Claude Code と、Cowork（作業が自分の Mac で動くとき）。ふだんの Claude のチャットでは、プラグインの中の MCP のサーバーは動きません。チャットで使うときは、natsu-in.com で配る `.mcpb` を Claude Desktop に入れてください。
 
+## 試し方（審査する人へ）
+
+1. Mac の App Store で「ナツ印」を入れる（https://apps.apple.com/app/id6829200381 ）。アカウントの作成やサインインは要りません。
+2. ナツ印を開き、初回の設定で上段と下段の文字を入れる（例：「救急科」「山田 太郎」）。
+3. 購入の画面で「30日間無料で試す」を押す（0円の体験。購入はしません）。
+4. Claude Code（`claude --plugin-dir` か、このプラグインを入れる）か、自分の Mac で動く Cowork で「ナツ印」と頼む。今日の日付の印影がクリップボードに入り、画像が返ります。
+
 ## 使い方の例
 
 1. 「ナツ印」→ 今日の日付の印影をクリップボードへコピーし、その画像を見せます。返信などに貼り付け（⌘V）ます。
@@ -60,6 +67,13 @@ NATSU-in is a plugin that gives Claude a dated round stamp image (top text, date
 - The app must be in a usable state (for example, purchased). Details: https://natsu-in.com
 - Node.js 18 or later, because the MCP server runs with `node`.
 - Where it works: Claude Code, and Cowork when the session runs on your own Mac. Claude chat ignores local MCP servers in plugins; to use NATSU-in in chat, install the `.mcpb` desktop extension from natsu-in.com in Claude Desktop.
+
+## How to test (for reviewers)
+
+1. Install "ナツ印" (NATSU-in) from the Mac App Store: https://apps.apple.com/app/id6829200381 . No account or sign-in is needed.
+2. Open the app and complete the first-run setup with any top and bottom text (for example "救急科" and "山田 太郎").
+3. On the purchase screen, tap 「30日間無料で試す」 (start the free 30-day trial; nothing is charged).
+4. In Claude Code (with `claude --plugin-dir` or after installing this plugin), or in Cowork running on the same Mac, say "ナツ印". Today's stamp is copied to the clipboard and the image is returned.
 
 ## Example prompts
 
