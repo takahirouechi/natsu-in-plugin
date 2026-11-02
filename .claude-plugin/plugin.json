@@ -1,0 +1,19 @@
+{
+  "name": "natsu-in",
+  "displayName": "ナツ印",
+  "version": "0.1.0",
+  "description": "合言葉「ナツ印」で、日付入りの丸い印影（見た目としての画像）をクリップボードへコピーしたり、透過 PNG で保存したりする。Mac のナツ印のアプリが必要。Copy or save a dated round stamp image made by the NATSU-in Mac app.",
+  "author": {
+    "name": "HEROES, K.K.",
+    "url": "https://natsu-in.com",
+    "email": "support@natsu-in.com"
+  },
+  "homepage": "https://natsu-in.com",
+  "license": "MIT",
+  "keywords": [
+    "stamp",
+    "date-stamp",
+    "japanese",
+    "macos"
+  ]
+}
